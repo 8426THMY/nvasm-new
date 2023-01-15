@@ -15,7 +15,7 @@ The latest Windows binary for nvasm-new can be downloaded in the releases sectio
 
 While the shader path is required, the output path is not: if none is specified, it will use whatever vsa or psa output by default.
 
-Currently, the valid options are:
+Currently, the only valid option is:
 
 | Option | Description |
 | --- | --- |
