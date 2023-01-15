@@ -7,3 +7,14 @@ By default, the compiled shader is output in a binary format. However, if the "-
 
 # Dependencies
 While no special prerequisites are required to _compile_ this application, the DirectX 8 shader assemblers "vsa.exe" and "psa.exe" are required to actually use it successfully. Luckily, unlike nvasm, these applications are still available from sufficiently old versions of the DirectX 8 SDK.
+
+# Usage
+The latest Windows binary for nvasm-new can be downloaded in the releases section. The application may be used as follows:
+
+`nvasm.exe -[OPTIONS] "shader_path" "output_path"`
+
+While the shader path is required, the output path is not: if none is specified, it will use whatever vsa or psa output by default. The valid options are
+
+| Option | Description |
+| --- | --- |
+| h | Output the shader as a header file. |
